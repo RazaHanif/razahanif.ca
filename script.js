@@ -15,5 +15,4 @@ if (main && cursor) {
     main.addEventListener('mouseleave', () => {
         cursor.style.opacity = 0
     })
-
 }

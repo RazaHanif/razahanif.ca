@@ -65,3 +65,8 @@ a:hover {
     position: relative;
     overflow: hidden;
 }
+
+.contact-links a svg {
+    width: 1em;
+    height: auto;
+}

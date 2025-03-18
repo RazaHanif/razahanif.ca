@@ -1,28 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;}
+
 body {
     background-color: #010B13;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
-    margin: 0;
     color: #2A3439;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+    transition: 0.3s;
 }
+
+a:hover {
+    color: #68808D;
+    opacity: 1;
+}
+
 
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    height: 100vh;
     width: 100vw;
+    height: 100svh;
+    box-sizing: border-box;;
 }
 
 .main h1{
@@ -43,10 +55,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .contact-links {
     display: flex;
-    gap: 10vw;
+    gap: 5vw;
+    position: relative;
+    overflow: hidden;
 }

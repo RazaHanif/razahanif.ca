@@ -18,11 +18,11 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 a:hover {
-    color: #68808D;
+    color: #085191;
     opacity: 1;
 }
 

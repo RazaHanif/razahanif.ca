@@ -40,9 +40,9 @@ a:hover {
     transition: 1s ease-in-out;
     background-color: #010b13;
     opacity: 1;
-    background-image:  radial-gradient(#2a3439 0.6000000000000001px, transparent 0.6000000000000001px), radial-gradient(#2a3439 0.6000000000000001px, #010b13 0.6000000000000001px);
-    background-size: 24px 24px;
-    background-position: 0 0,12px 12px;
+    background-image:  radial-gradient(#2A3439 0.9px, transparent 0.9px), radial-gradient(#2A3439 0.9px, #010b13 0.9px);
+    background-size: 36px 36px;
+    background-position: 0 0,18px 18px;
 }
 
 .content {

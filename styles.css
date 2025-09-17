@@ -50,7 +50,6 @@ a:hover {
     text-align: center;
     z-index: 1;
 }
-
 .cursor {
     position: absolute;
     top: 0;
@@ -62,15 +61,18 @@ a:hover {
     pointer-events: none;
 }
 
-.content h1{
+.content .name {
     font-family: 'Roboto Mono', sans-serif;
-    font-size: 3em;
     text-align: center;
+    font-size: 4em;
     background: linear-gradient(to right, #00DDFF, #FF006F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 10px;
     font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.content .title {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -96,3 +98,31 @@ a:hover {
     height: auto;
 }
 
+.cards {
+    margin: 0 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2em;
+}
+
+.card-link {
+    background-color: #010B13;
+    border: 1px solid #2A3439;
+    border-radius: 1em;
+    flex: 1 1 250px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card-link:hover {
+    border: 1px solid #085191;
+}
+
+.card {
+    padding: 2em;
+}

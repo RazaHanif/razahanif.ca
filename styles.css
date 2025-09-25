@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    color: #2A3439;
+    color: hsl(200, 15%, 40%);
 }
 
 a {
